@@ -37,13 +37,13 @@
           .row.justify-content-center.align-items-stretch.mb-5
             .col-lg-4
               figure
-                img(src='@/assets/curso/tema1/3.png', alt="", data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/3.png', alt="", data-aos="zoom-in").mb-4.mb-lg-0
             .col-lg-8
               .tarjeta.bg-color-1.p-4.mb-4.h-100
-                p(data-aos="fade-up").mt-3 En este sentido, es importante tener presente la conveniencia de NO destruir la etiqueta de identificación de la transmisión, para evitar que se pierda este tipo de información relevante.
+                p(data-aos="fade-up").mt-3 En este sentido, es importante tener presente la conveniencia de #[strong NO destruir la etiqueta de identificación de la transmisión], para evitar que se pierda este tipo de información relevante.
 
-
-          .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+          Separador
+          #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
             h2 1.1  Desacople de la transmisión
 
           p(data-aos="fade-up").mb-4 Al remover una caja de cambios siempre se debe utilizar un gato o un dispositivo similar, como se presenta a continuación: 
@@ -56,7 +56,7 @@
                 span Gato para remover la transmisión
                     
               figure
-                img(src='@/assets/curso/tema1/2.png', alt='Diagrama que muestra dos métodos para usar un gato para bajar la transmisión: uno con un bloque de madera para soporte y otro con una cadena y adaptador para asegurar la transmisión. ', style="max-width: 822px;", data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/figura-2.png', alt='Diagrama que muestra dos métodos para usar un gato para bajar la transmisión: uno con un bloque de madera para soporte y otro con una cadena y adaptador para asegurar la transmisión. ', style="max-width: 822px;", data-aos="zoom-in")
 
           p(data-aos="fade-left").mb-5 Se puede utilizar un bloque de madera como en la figura A o un adaptador como en la figura B para que se apoye en la carcasa de la transmisión.
 
@@ -66,7 +66,7 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema1/5.svg', alt='', data-aos="zoom-in")
+                      img(src='@/assets/curso/tema1/5.svg', alt='', data-aos="zoom-in", style="max-width: 90px;").mx-auto.mb-4.mb-lg-0
                   .col-lg
                     p(data-aos="fade-left").mb-0.text-white Es importante tener en cuenta que el procedimiento siguiente puede variar dependiendo del tipo de caja de cambios. Por tal razón se recomienda tener como referencia principal el manual de servicio o de taller de este sistema.
 
@@ -75,20 +75,20 @@
         .col-lg
           p(data-aos="fade-left").mb-0 A continuación, se abordará un procedimiento práctico y esencial para quienes trabajan en el mantenimiento automotriz: el desmontaje seguro y eficiente de una transmisión.
 
-        .col-lg-auto
+        .col-lg-auto.d-none.d-lg-block
           figure
-            img(src='@/assets/curso/tema1/6.svg', alt='', data-aos="zoom-in")
+            img(src='@/assets/curso/tema1/6.svg', alt='', data-aos="zoom-in", style="max-width: 90px;").mx-auto.my-4.my-lg-0
 
 
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7
-          .tarjeta.bg-color-2.p-4(data-aos="fade-right")
+          .tarjeta.bg-color-2.p-4(data-aos="fade-right").mb-4.mb-lg-0
 
             .row.justify-content-center.align-items-center
               .col-lg-auto
                 figure
-                  img(src='@/assets/curso/tema1/7.svg', alt='', style="max-width: 260px;", data-aos="zoom-in")
+                  img(src='@/assets/curso/tema1/7.svg', alt='', style="max-width: 260px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
               .col-lg
                 h5(data-aos="fade-up").mb-3(style="color: #F3D913") ¿Sabías qué?
                 p(data-aos="fade-up").mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
@@ -98,12 +98,12 @@
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-        .col-lg-5
+        .col-lg-5.d-none.d-lg-block
           figure
             img(src='@/assets/curso/tema1/8.png', alt='', data-aos="zoom-in")
 
-
-      .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      Separador
+      #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 1.2 Desarmado de componentes
 
       .row.justify-content-center.align-items-center.mb-5
@@ -111,7 +111,7 @@
 
           p(data-aos="fade-up").mb-4 Los procedimientos de desarmado variarán de una transmisión a otra. Siempre se debe consultar el manual de servicio o de mantenimiento para conocer los procedimientos detallados.
 
-          figure
+          figure.d-none.d-lg-block
             img(src='@/assets/curso/tema1/10.png', alt='', data-aos="zoom-in")
 
         .col-lg-5
@@ -129,7 +129,7 @@
                   span Desmontaje de componentes - caja de cambios manual modelo Fiesta
                       
               figure
-                img(src='@/assets/curso/tema1/11.png', alt='Ilustración del proceso de extracción de engranajes en una caja de cambios manual, con flechas que indican la dirección del desmontaje.', style="max-width: 400px;", data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/11.png', alt='Ilustración del proceso de extracción de engranajes en una caja de cambios manual, con flechas que indican la dirección del desmontaje.', style="max-width: 400px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
 
             .col-lg-4
               .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
@@ -137,7 +137,7 @@
                   span Herramienta para extracción de rodamientos caja de cambios manual modelo Fiesta
                       
               figure
-                img(src='@/assets/curso/tema1/12.png', alt='Imagen de una herramienta específica utilizada para quitar rodamientos de una caja de cambios manual, mostrando cómo se aplica a los componentes.', style="max-width: 400px;", data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/12.png', alt='Imagen de una herramienta específica utilizada para quitar rodamientos de una caja de cambios manual, mostrando cómo se aplica a los componentes.', style="max-width: 400px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
 
             .col-lg-4
               .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
@@ -145,10 +145,10 @@
                   span Herramienta para extracción de engranajes
                       
               figure
-                img(src='@/assets/curso/tema1/13.png', alt='Esquema de una herramienta de extracción de engranajes, con un engranaje ensamblado y el código 0827 destacado.', style="max-width: 400px;", data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/13.png', alt='Esquema de una herramienta de extracción de engranajes, con un engranaje ensamblado y el código 0827 destacado.', style="max-width: 400px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
 
-
-          .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+          Separador
+          #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
             h2 1.3 Limpieza e inspección de los componentes
 
           p(data-aos="fade-up").mb-4 Se deben inspeccionar todas las piezas retiradas de la carcasa. Primero hay que revisar el interior de la caja, para ver si tiene virutas de metal.
@@ -156,22 +156,22 @@
           .row.justify-content-center.align-items-center
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema1/14.png', alt='', data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/14.png', alt='', data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
             .col-lg-6
               .tarjeta.bg-color-4.px-4.py-3.mb-3
                 .row.justify-content-center.align-items-center
-                  .col-lg-auto
+                  .col-auto
                     figure
                       img(src='@/assets/curso/tema1/15.svg', alt='', data-aos="zoom-in")
-                  .col-lg
+                  .col
                     p(data-aos="fade-up").mb-0 Si se encuentran partículas de color bronce, esto significa que uno o más de los sincronizadores o arandelas de empuje están dañados.
 
               .tarjeta.bg-color-4.px-4.py-3
                 .row.justify-content-center.align-items-center
-                  .col-lg-auto
+                  .col-auto
                     figure
                       img(src='@/assets/curso/tema1/16.svg', alt='', data-aos="zoom-in")
-                  .col-lg
+                  .col
                     p(data-aos="fade-up").mb-0 Si se encuentran virutas de hierro, los engranajes de transmisión de salida probablemente estén dañados.
 
 
@@ -180,31 +180,31 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-6
           figure
-            img(src='@/assets/curso/tema1/17.png', alt='', data-aos="zoom-in")
+            img(src='@/assets/curso/tema1/17.png', alt='', data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
         .col-lg-6
           .tarjeta.bg-color-4.px-4.py-3.mb-2(data-aos="fade-right")
             .row.justify-content-center.align-items-center
-              .col-lg-auto
+              .col-auto
                 figure
                   img(src='@/assets/curso/tema1/18.svg', alt='', data-aos="zoom-in")
-              .col-lg
+              .col
                 p(data-aos="fade-up").mb-0 Limpiar el interior con solvente.
 
           .tarjeta.bg-color-4.px-4.py-3.mb-2(data-aos="fade-right")
             .row.justify-content-center.align-items-center
-              .col-lg-auto
+              .col-auto
                 figure
                   img(src='@/assets/curso/tema1/19.svg', alt='', data-aos="zoom-in")
-              .col-lg
+              .col
                 p(data-aos="fade-up").mb-0 Secar con aire comprimido mientras se utilizan gafas de protección.
 
 
           .tarjeta.bg-color-4.px-4.py-3(data-aos="fade-right")
             .row.justify-content-center.align-items-center
-              .col-lg-auto
+              .col-auto
                 figure
                   img(src='@/assets/curso/tema1/20.svg', alt='', data-aos="zoom-in")
-              .col-lg
+              .col
                 p(data-aos="fade-up").mb-0 Limpiar los cojinetes de la transmisión.
 
 
@@ -223,24 +223,24 @@
             br
             | • Los engranajes suelen ser endurecidos. Si el desgaste es mayor a unas pocas milésimas de pulgada, se desgastará la capa externa dura y se deberá reemplazar el engranaje.
 
-
-      .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      Separador
+      #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 1.4 Reemplazo de partes desgastadas o dañadas
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg
+        .col
           p(data-aos="fade-up").mb-0 Cualquier pieza gastada o averiada debe ser reemplazada. Por esta razón es muy importante realizar una buena limpieza e inspección de los componentes. Si los problemas no se corrigen, es muy probable que el rearmado presente fallas y se deba realizar nuevamente toda la operación de desarmado para corregir los problemas.
 
-        .col-lg-auto
+        .col-auto
           figure
-            img(src='@/assets/curso/tema1/22.svg', alt='', data-aos="zoom-in")
+            img(src='@/assets/curso/tema1/22.svg', alt='', data-aos="zoom-in", style="max-width: 90px;").mx-auto
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7
           .tarjeta.bg-color-1.p-4.mb-4(data-aos="fade-right")
             p(data-aos="fade-up").mb-0 Es recomendable siempre reemplazar los #[strong anillos de retención y sellos], incluso si parecen estar en buen estado, ya que pueden presentar fugas.
 
-          figure
+          figure.d-none.d-lg-block
             img(src='@/assets/curso/tema1/23.png', alt='', data-aos="zoom-in")
         .col-lg-5
           figure
@@ -248,7 +248,8 @@
 
       p(data-aos="fade-left").mb-5 Cuando se reemplace un engranaje en el eje de salida, también es recomendable reemplazar el juego de engranajes correspondiente en el eje secundario. Esto ayuda a evitar ruidos y posibles desgastes.
 
-      .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      Separador
+      #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 1.5 Ensamble de componentes
 
       .row.justify-content-center.align-items-center.mb-5
@@ -256,7 +257,7 @@
           p(data-aos="fade-up").mb-0 Normalmente la transmisión se ensambla en sentido inverso al desarmado. Es necesario revisar el manual de servicio o de mantenimiento para obtener las indicaciones específicas según la caja de cambios con la que se esté trabajando. En el manual de servicio también se encuentran los dibujos en explosión, como en la siguiente figura, que permitirán ver el paso a paso del ensamble de componentes y así efectuar la operación de forma exitosa.
         .col-lg-5
           figure
-            img(src='@/assets/curso/tema1/25.png', alt='', data-aos="zoom-in")
+            img(src='@/assets/curso/tema1/25.png', alt='', data-aos="zoom-in").mt-4.mt-lg-0
 
 
       .bg-full-width.bg-fondo-4
@@ -280,7 +281,7 @@
       .bg-full-width.bg-fondo-5
         .px-4.px-md-5.pb-4.pb-md-5
           .row.justify-content-center.align-items-stretch.mb-5
-            .col-lg-6
+            .col-lg-6.mb-4.mb-lg-0
               .bg-color-6.rounded-bottom.h-100
                 figure
                   img(src='@/assets/curso/tema1/27.png', alt='', data-aos="zoom-in")
@@ -306,7 +307,7 @@
                       |   Mover la carcasa de extensión en un patrón circular para ayudarla a entrar en el rodamiento piloto del cigüeñal.
               
           
-            .col-lg-6
+            .col-lg-6.mb-4.mb-lg-0
               .bg-color-6.rounded-bottom.h-100
                 figure
                   img(src='@/assets/curso/tema1/28.png', alt='', data-aos="zoom-in")
@@ -344,7 +345,7 @@
 
             .col-lg-auto
               figure
-                img(src='@/assets/curso/tema1/29.png', alt='', data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/29.png', alt='', data-aos="zoom-in").mt-4.mt-lg-0
           
 
                 

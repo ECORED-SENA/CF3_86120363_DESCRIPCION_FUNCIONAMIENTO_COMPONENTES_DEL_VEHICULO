@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
@@ -25,7 +25,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-auto
             figure
-              img(src="@/assets/curso/intro/2.svg", alt="alt")
+              img(src="@/assets/curso/intro/2.svg", alt="alt", style="max-width: 90px;").mx-auto.mb-4.mb-lg-0
 
           .col-lg
             p(data-aos="fade-up").mb-0 En esta actividad de aprendizaje, se busca proporcionar los conocimientos básicos necesarios para realizar un mantenimiento efectivo de la caja de cambios manual. Esto incluye desde el diagnóstico y desmontaje hasta la limpieza, inspección, reemplazo de componentes y ensamblaje final. 
