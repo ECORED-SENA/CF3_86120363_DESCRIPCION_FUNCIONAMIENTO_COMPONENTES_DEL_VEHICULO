@@ -80,27 +80,29 @@
             img(src='@/assets/curso/tema1/6.svg', alt='', data-aos="zoom-in", style="max-width: 90px;").mx-auto.my-4.my-lg-0
 
 
+      .video.my-5
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7Yz6CNs8GlM?si=_eEN5X-xv7r2u8E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-7
-          .tarjeta.bg-color-2.p-4(data-aos="fade-right").mb-4.mb-lg-0
+      //- .row.justify-content-center.align-items-center.mb-5
+      //-   .col-lg-7
+      //-     .tarjeta.bg-color-2.p-4(data-aos="fade-right").mb-4.mb-lg-0
 
-            .row.justify-content-center.align-items-center
-              .col-lg-auto
-                figure
-                  img(src='@/assets/curso/tema1/7.svg', alt='', style="max-width: 260px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
-              .col-lg
-                h5(data-aos="fade-up").mb-3(style="color: #F3D913") ¿Sabías qué?
-                p(data-aos="fade-up").mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
-                TarjetaAudio.color-secundario.mb-3(
-                  texto="Desmontaje seguro de una transmisión automotriz"
-                  :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
-                )
-                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-        .col-lg-5.d-none.d-lg-block
-          figure
-            img(src='@/assets/curso/tema1/8.png', alt='', data-aos="zoom-in")
+      //-       .row.justify-content-center.align-items-center
+      //-         .col-lg-auto
+      //-           figure
+      //-             img(src='@/assets/curso/tema1/7.svg', alt='', style="max-width: 260px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
+      //-         .col-lg
+      //-           h5(data-aos="fade-up").mb-3(style="color: #F3D913") ¿Sabías qué?
+      //-           p(data-aos="fade-up").mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
+      //-           TarjetaAudio.color-secundario.mb-3(
+      //-             texto="Desmontaje seguro de una transmisión automotriz"
+      //-             :audio="require('../assets/componentes/audios/audio-ej.mp3')"
+      //-             @audio-hover="mostrarIndicadorTarjetaAudio = false"
+      //-           )
+      //-             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+      //-   .col-lg-5.d-none.d-lg-block
+      //-     figure
+      //-       img(src='@/assets/curso/tema1/8.png', alt='', data-aos="zoom-in")
 
       Separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
