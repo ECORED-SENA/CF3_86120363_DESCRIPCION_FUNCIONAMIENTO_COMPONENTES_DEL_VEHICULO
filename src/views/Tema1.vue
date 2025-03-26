@@ -268,11 +268,11 @@
             .col-lg-5
 
               .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-                h5 Figura 3. 
+                h5 Figura 6. 
                 span Vista en explosión de una caja de cambios manual
 
               figure.mb-1
-                img(src='@/assets/curso/tema1/26.png', alt='', data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/26.png', alt='Diagrama técnico que desglosa los componentes internos de una caja de cambios manual, con cada parte numerada para facilitar la identificación y ensamblaje.', data-aos="zoom-in")
 
               .bg-color-1.p-4.mb-4.rounded-bottom
                 p(data-aos="fade-up").mb-0 En la medida en que se ensamblen las piezas, se recomienda verificar que estas realicen correctamente su función y que se puedan mover libremente.
