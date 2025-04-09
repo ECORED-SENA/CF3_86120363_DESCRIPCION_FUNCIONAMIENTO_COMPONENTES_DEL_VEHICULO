@@ -22,6 +22,8 @@ export default {
       introduccion:
         'Reconocer el mantenimiento, desmontaje, inspección, ensamblaje e instalación de transmisiones manuales.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
