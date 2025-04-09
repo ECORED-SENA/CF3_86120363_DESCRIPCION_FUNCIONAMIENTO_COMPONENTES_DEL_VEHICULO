@@ -28,7 +28,7 @@
               img(src="@/assets/curso/intro/2.svg", alt="alt", style="max-width: 90px;").mx-auto.mb-4.mb-lg-0
 
           .col-lg
-            p(data-aos="fade-up").mb-0 En esta actividad de aprendizaje, se busca proporcionar los conocimientos básicos necesarios para realizar un mantenimiento efectivo de la caja de cambios manual. Esto incluye desde el diagnóstico y desmontaje hasta la limpieza, inspección, reemplazo de componentes y ensamblaje final. 
+            p(data-aos="fade-up").mb-0 Con este componente, se busca proporcionar los conocimientos básicos necesarios para realizar un mantenimiento efectivo de la caja de cambios manual. Esto incluye desde el diagnóstico y desmontaje hasta la limpieza, inspección, reemplazo de componentes y ensamblaje final. 
       
 </template>
 

@@ -64,6 +64,11 @@ export default {
             titulo: 'Ensamble de componentes',
             hash: 't_1_5',
           },
+          {
+            numero: '1.6',
+            titulo: 'Instalación de la transmisión',
+            hash: 't_1_6',
+          },
         ],
       },
     ],

@@ -27,7 +27,7 @@
                 
           figure
             img(src='@/assets/curso/tema1/2.png', alt='Ilustración de una transmisión manual con un enfoque en la placa de identificación, que contiene información como el código F10, modelo, número de serie y lugar de fabricación. ', style="max-width: 820px;", data-aos="zoom-in")
-
+          figcaption.mt-3 Fuente: Troubleshooting for transmissions, transfer cases, and differentials (advanced). Waybuilder.net.
 
 
       .bg-full-width.bg-fondo-2
@@ -57,7 +57,7 @@
                     
               figure
                 img(src='@/assets/curso/tema1/figura-2.png', alt='Diagrama que muestra dos métodos para usar un gato para bajar la transmisión: uno con un bloque de madera para soporte y otro con una cadena y adaptador para asegurar la transmisión. ', style="max-width: 822px;", data-aos="zoom-in")
-
+              figcaption.mt-3 Fuente: Troubleshooting for transmissions, transfer cases, and differentials (advanced). Waybuilder.net.
           p(data-aos="fade-left").mb-5 Se puede utilizar un bloque de madera como en la figura A o un adaptador como en la figura B para que se apoye en la carcasa de la transmisión.
 
           .row.justify-content-center.align-items-center
@@ -132,7 +132,7 @@
                       
               figure
                 img(src='@/assets/curso/tema1/11.png', alt='Ilustración del proceso de extracción de engranajes en una caja de cambios manual, con flechas que indican la dirección del desmontaje.', style="max-width: 400px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
-
+              figcaption.mt-2.mb-4 Fuente: Troubleshooting for transmissions, transfer cases, and differentials (advanced). Waybuilder.net.
             .col-lg-4
               .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
                   h5 Figura 4. 
@@ -140,7 +140,7 @@
                       
               figure
                 img(src='@/assets/curso/tema1/12.png', alt='Imagen de una herramienta específica utilizada para quitar rodamientos de una caja de cambios manual, mostrando cómo se aplica a los componentes.', style="max-width: 400px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
-
+              figcaption.mt-2.mb-4 Fuente: Troubleshooting for transmissions, transfer cases, and differentials (advanced). Waybuilder.net.
             .col-lg-4
               .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
                   h5 Figura 5. 
@@ -148,7 +148,7 @@
                       
               figure
                 img(src='@/assets/curso/tema1/13.png', alt='Esquema de una herramienta de extracción de engranajes, con un engranaje ensamblado y el código 0827 destacado.', style="max-width: 400px;", data-aos="zoom-in").mx-auto.mb-4.mb-lg-0
-
+              figcaption.mt-2.mb-4 Fuente: Troubleshooting for transmissions, transfer cases, and differentials (advanced). Waybuilder.net.
           Separador
           #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
             h2 1.3 Limpieza e inspección de los componentes
@@ -273,11 +273,16 @@
 
               figure.mb-1
                 img(src='@/assets/curso/tema1/26.png', alt='Diagrama técnico que desglosa los componentes internos de una caja de cambios manual, con cada parte numerada para facilitar la identificación y ensamblaje.', data-aos="zoom-in")
-
+              figcaption.my-3 Fuente: Troubleshooting for transmissions, transfer cases, and differentials (advanced). Waybuilder.net.
               .bg-color-1.p-4.mb-4.rounded-bottom
                 p(data-aos="fade-up").mb-0 En la medida en que se ensamblen las piezas, se recomienda verificar que estas realicen correctamente su función y que se puedan mover libremente.
 
-          .titulo-tres(data-aos="flip-up")  
+
+      Separador
+      #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+        h2 1.6 Instalación de la transmisión
+          
+          //.titulo-tres(data-aos="flip-up")  
             h4 Instalación de la transmisión
 
       .bg-full-width.bg-fondo-5
