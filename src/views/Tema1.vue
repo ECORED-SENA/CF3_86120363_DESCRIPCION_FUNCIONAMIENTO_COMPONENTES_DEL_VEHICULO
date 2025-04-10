@@ -122,6 +122,7 @@
 
       p(data-aos="fade-up").mb-4 Para el correcto desmontaje de los componentes es importante contar con las herramientas adecuadas para hacerlo y así optimizar tiempos en el desarmado y evitar daños.
 
+
       .bg-full-width.bg-fondo-3
         .p-4.p-md-5
           .row.justify-content-center.align-items-center.mb-5
@@ -174,7 +175,7 @@
                     figure
                       img(src='@/assets/curso/tema1/16.svg', alt='', data-aos="zoom-in")
                   .col
-                    p(data-aos="fade-up").mb-0 Si se encuentran virutas de hierro, los engranajes de transmisión de salida probablemente estén dañados.
+                    p(data-aos="fade-up").mb-0 Si se encuentran virutas de hierro, los engranajes de transmisión de salida probablemente están dañados.
 
 
       p(data-aos="fade-up").mb-4 Después de revisar la caja, se debe:
@@ -264,7 +265,7 @@
 
       .bg-full-width.bg-fondo-4
         .p-4.p-md-5
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-5
 
               .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
@@ -273,12 +274,333 @@
 
               figure.mb-1
                 img(src='@/assets/curso/tema1/26.png', alt='Diagrama técnico que desglosa los componentes internos de una caja de cambios manual, con cada parte numerada para facilitar la identificación y ensamblaje.', data-aos="zoom-in")
-              figcaption.my-3 Fuente: Troubleshooting for transmissions, transfer cases, and differentials (advanced). Waybuilder.net.
+              figcaption.mb-2 Fuente: Troubleshooting for transmissions, transfer cases, and differentials (advanced). Waybuilder.net.
               .bg-color-1.p-4.mb-4.rounded-bottom
                 p(data-aos="fade-up").mb-0 En la medida en que se ensamblen las piezas, se recomienda verificar que estas realicen correctamente su función y que se puedan mover libremente.
 
+      #ListaElementosFig6.row.justify-content-center.align-items-start.mb-5
+        .col-lg-4
+          ul.lista-ul--color
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 1. 
+              | Tornillo
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 2. 
+              | Tapa superior de transmisión
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 3. 
+              | Tapón respiradero
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 4. 
+              | Junta de tapa superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 5. 
+              | Tornillo guía
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 6. 
+              | Cubierta frontal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 7. 
+              | Tornillo
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 8. 
+              | Junta frontal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 9. 
+              | Retén frontal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 10. 
+              | Arandela frontal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 11. 
+              | Palanca selectora
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 12. 
+              | Pasador o tornillo de palanca
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 13. 
+              | Soporte o buje trasero
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 14. 
+              | Tornillo de soporte trasero
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 15. 
+              | Carcasa principal de transmisión
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 16. 
+              | Tornillo de montaje
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 17. 
+              | Tornillo lateral
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 18. 
+              | Horquilla selectora superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 19. 
+              | Horquilla selectora inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 20. 
+              | Sincronizador superior completo
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 21. 
+              | Anillo sincronizador superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 22. 
+              | Manguito deslizador superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 23. 
+              | Seguro o anillo retenedor
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 24. 
+              | Horquilla selectora central
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 25. 
+              | Horquilla selectora central
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 26. 
+              | Cuña o pasador de horquilla superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 27. 
+              | Resorte selector superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 28. 
+              | Resorte selector inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 29. 
+              | Rodamiento delantero principal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 30. 
+              | Arandela separadora
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 31. 
+              | Engranaje impulsor primario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 32. 
+              | Engranaje sincronizado superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 33. 
+              | Anillo retenedor superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 34. 
+              | Engranaje secundario superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 35. 
+              | Anillo sincronizador medio
 
-      Separador
+        .col-lg-4
+          ul.lista-ul--color
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 36. 
+              | Engranaje sincronizado medio
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 37. 
+              | Rodamiento de agujas
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 38. 
+              | Engranaje intermedio frontal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 39. 
+              | Placa o cubierta intermedia
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 40. 
+              | Arandela separadora frontal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 41. 
+              | Rodamiento frontal lateral
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 42. 
+              | Placa de retención del rodamiento
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 43. 
+              | Tornillo de retención del rodamiento
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 44. 
+              | Placa lateral
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 45. 
+              | Arandela lateral
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 46. 
+              | Rodamiento lateral
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 47. 
+              | Pasador o eje guía lateral
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 48. 
+              | Resorte lateral
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 49. 
+              | Bola de bloqueo lateral
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 50. 
+              | Tornillo trasero
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 51. 
+              | Tapón lateral
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 52. 
+              | Tapón inferior o sello
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 53. 
+              | Varilla selectora interna superior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 54. 
+              | Varilla selectora interna inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 55. 
+              | Horquilla selectora inferior trasera
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 56. 
+              | Pasador de horquilla inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 57. 
+              | Junta lateral trasera
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 58. 
+              | Retén lateral trasero
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 59. 
+              | Arandela separadora lateral trasera
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 60. 
+              | Rodamiento lateral trasero
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 61. 
+              | Eje principal (primario)
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 62. 
+              | Rodamiento del eje principal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 63. 
+              | Separador del rodamiento principal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 64. 
+              | Anillo retenedor del rodamiento
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 65. 
+              | Engranaje intermedio principal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 66. 
+              | Rodamiento de agujas interno
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 67. 
+              | Separador interno de engranaje
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 68. 
+              | Engranaje secundario medio
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 69. 
+              | Engranaje secundario intermedio
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 70. 
+              | Separador de engranaje
+
+        .col-lg-4
+          ul.lista-ul--color
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 71. 
+              | Engranaje secundario posterior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 72. 
+              | Rodamiento trasero principal
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 73. 
+              | Arandela separadora trasera
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 74. 
+              | Engranaje de reversa
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 75. 
+              | Rodamiento trasero secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 76. 
+              | Varilla selectora de reversa
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 77. 
+              | Cuña o pasador de reversa
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 78. 
+              | Horquilla selectora de reversa
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 79. 
+              | Arandela separadora trasera secundaria
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 80. 
+              | Retén trasero secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 81. 
+              | Rodamiento trasero secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 82. 
+              | Separador trasero secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 83. 
+              | Eje secundario (contraeje)
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 84. 
+              | Engranaje frontal secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 85. 
+              | Rodamiento de agujas secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 86. 
+              | Separador interno secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 87. 
+              | Engranaje medio secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 88. 
+              | Separador intermedio secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 89. 
+              | Sincronizador inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 90. 
+              | Anillo sincronizador inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 91. 
+              | Manguito deslizador inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 92. 
+              | Resorte del sincronizador inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 93. 
+              | Anillo retenedor del sincronizador inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 94. 
+              | Engranaje sincronizado inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 95. 
+              | Eje intermedio
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 96. 
+              | Rodamiento intermedio trasero
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 97. 
+              | Engranaje trasero secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 98. 
+              | Arandela separadora posterior secundaria
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 99. 
+              | Engranaje menor trasero secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 100. 
+              | Rodamiento trasero menor secundario
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 101. 
+              | Arandela separadora menor trasera
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 102. 
+              | Carcasa trasera de transmisión
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 103. 
+              | Soporte inferior
+            li.mb-0(data-aos="fade-up") 
+              span.text-bold 104. 
+              | Tornillo inferior trasero
+
+        Separador
       #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 1.6 Instalación de la transmisión
           
