@@ -646,7 +646,7 @@
                       i.fas.fa-check-circle
                       | Ajustar el varillaje de la transmisión.
 
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-center.mb-5
 
             .col-lg
               p(data-aos="fade-up").mb-0 Es importante tener en cuenta que esta es una guía general y que el procedimiento puede variar dependiendo del tipo de transmisión manual. Por lo tanto, se sugiere siempre consultar el manual de servicio o de mantenimiento de la transmisión, con el objetivo de seguir las instrucciones allí descritas para realizar la correcta reparación de una caja de cambios en particular.
